@@ -26,7 +26,13 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O Dataset de imagens selecionado foi o ECG Images Dataset , disponível em:  https://www.kaggle.com/datasets/jayaprakashpondy/ecgimages/data
+
+Este banco de dados foi escolhido por haver imagens de eletrocardiogramas identificados como normais, com infarto do miocárdio, com batimentos cardíacos anormais e de pessoas com histórico de infarto do miocárdio. Esta variedade de categorias auxilia no treinamento de modelos de marchine learning. 
+
+Considerando que o dataset é composto por representações visuais de sinais biológicos, as opções de Visão Computacional (CV) para o CardioIA abrangem desde o processamento de imagem clássico até arquiteturas avançadas de Deep Learning. Inicialmente, levanta-se a hipótese de que técnicas de detecção de bordas, como os filtros de Sobel ou o algoritmo de Canny, associadas a operações morfológicas, possam ser utilizadas para isolar o traçado do sinal do fundo milimetrado da imagem, removendo ruídos de digitalização. Uma opção robusta para a análise morfológica é o uso de Segmentação Semântica (como arquiteturas U-Net), que permitiria separar cada componente do ciclo cardíaco (Onda P, complexo QRS e Onda T) em máscaras distintas, facilitando a medição de intervalos temporais e amplitudes elétricas. Para a classificação das patologias presentes nas pastas do dataset, as opções mais eficazes envolvem o uso de Redes Neurais Convolucionais (CNNs) com Aprendizado por Transferência (Transfer Learning), utilizando modelos como ResNet ou EfficientNet pré-treinados para identificar padrões geométricos de arritmias e isquemias. Além disso, projeta-se a aplicação de Mecanismos de Atenção (Attention Maps), que permitem visualizar quais áreas do ECG a IA considerou mais relevantes para o diagnóstico, garantindo a interpretabilidade necessária para a aceitação médica do sistema.
+
+Para o treinamento e teste, a base de dados de imagens foi salva em: https://drive.google.com/drive/folders/1SAV1e8cRUYLMI_qkfReXNKHfManCMeAo?usp=sharing
 
 
 ## 📁 Estrutura de pastas
