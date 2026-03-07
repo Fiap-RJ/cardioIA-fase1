@@ -1,0 +1,50 @@
+TÍTULO: DIRETRIZES DE DIAGNÓSTICO E TRATAMENTO DA INSUFICIÊNCIA CARDÍACA AGUDA E CRÔNICA
+FONTE: Sociedade Brasileira de Cardiologia / Ministério da Saúde (Adaptação Clínica)
+
+DEFINIÇÃO E PANORAMA GERAL
+A Insuficiência Cardíaca (IC) é uma síndrome clínica complexa, na qual o coração é incapaz de bombear sangue de forma a atender às necessidades metabólicas tissulares, ou pode fazê-lo somente com elevadas pressões de enchimento. Trata-se da via final comum da maioria das doenças que acometem o coração, sendo um dos problemas de saúde pública mais importantes da atualidade devido à sua alta morbidade e mortalidade. A IC pode ser classificada de acordo com a Fração de Ejeção do Ventrículo Esquerdo (FEVE) em: IC com Fração de Ejeção Reduzida (ICFER), quando a FEVE é menor ou igual a 40%; IC com Fração de Ejeção Levemente Reduzida (ICFELR), com FEVE entre 41% e 49%; e IC com Fração de Ejeção Preservada (ICFEP), quando a FEVE é maior ou igual a 50%. A identificação correta do fenótipo é crucial, pois as terapias baseadas em evidências variam significativamente entre esses grupos.
+
+ETIOLOGIA E FATORES DE RISCO
+No Brasil, a etiologia da IC é diversificada. A doença isquêmica do coração (frequentemente pós-infarto agudo do miocárdio) e a hipertensão arterial sistêmica são as causas mais prevalentes. No entanto, etiologias como a Doença de Chagas, miocardiopatias valvulares (frequentemente secundárias à febre reumática) e a miocardiopatia dilatada idiopática mantêm forte relevância epidemiológica no cenário nacional. O diabetes mellitus, a obesidade, o tabagismo e a dislipidemia atuam como fatores de risco aceleradores para o desenvolvimento da disfunção ventricular e progressão da síndrome.
+
+AVALIAÇÃO CLÍNICA E SINTOMATOLOGIA
+O diagnóstico da IC é eminentemente clínico, baseado em uma anamnese detalhada e exame físico minucioso. Os sintomas cardinais da IC incluem dispneia (falta de ar) aos esforços, fadiga, cansaço fácil e tempo de recuperação prolongado após exercícios. À medida que a doença progride, a dispneia pode ocorrer em repouso.
+Sintomas específicos de congestão pulmonar e sistêmica devem ser ativamente investigados. A ortopneia (dificuldade de respirar ao deitar-se) e a dispneia paroxística noturna (despertar súbito com falta de ar) são marcadores clássicos de congestão pulmonar grave. No exame físico, os sinais mais frequentes de retenção hídrica são o edema de membros inferiores (frequentemente perimaleolar e ascendente), turgência jugular patológica, hepatomegalia e ascite. A ausculta cardíaca pode revelar a presença de terceira bulha (B3), indicativa de sobrecarga de volume e aumento da pressão diastólica final do ventrículo esquerdo, além de sopros valvulares. A ausculta pulmonar frequentemente evidencia estertores crepitantes em bases pulmonares.
+
+EXAMES COMPLEMENTARES E DIAGNÓSTICO
+O fluxograma diagnóstico exige a confirmação da disfunção cardíaca por métodos objetivos.
+
+Eletrocardiograma (ECG): Recomenda-se a realização de ECG de 12 derivações em todos os pacientes com suspeita de IC. Um ECG completamente normal torna o diagnóstico de IC crônica muito improvável. Achados comuns incluem sobrecarga de câmaras, áreas de inatividade elétrica (infarto prévio) e arritmias, como a fibrilação atrial.
+
+Peptídeos Natriuréticos: A dosagem de BNP (Peptídeo Natriurético do Tipo B) ou NT-proBNP é recomendada para excluir etiologia não cardíaca da dispneia. Valores normais no paciente não tratado tornam o diagnóstico de IC improvável.
+
+Ecocardiograma Transtorácico: É o método de imagem de escolha para avaliação inicial. Fornece informações imediatas sobre o volume das câmaras, a função sistólica (cálculo da FEVE) e diastólica do ventrículo esquerdo, espessura da parede e integridade valvular.
+
+Radiografia de Tórax: Útil para identificar cardiomegalia e sinais de congestão venocapilar pulmonar, como inversão do padrão vascular e linhas B de Kerley, além de auxiliar no diagnóstico diferencial com pneumopatias.
+
+ESTADIAMENTO CLÍNICO (CLASSIFICAÇÃO DA NYHA)
+A gravidade dos sintomas é universalmente classificada pela escala da New York Heart Association (NYHA), que direciona a conduta terapêutica:
+
+Classe I: Ausência de sintomas durante atividades cotidianas.
+
+Classe II: Sintomas leves durante atividades cotidianas, resultando em leve limitação física.
+
+Classe III: Sintomas desencadeados por esforços menores que os cotidianos, com limitação física importante.
+
+Classe IV: Sintomas em repouso ou ao menor esforço, incapacitando o paciente de realizar qualquer atividade física sem desconforto.
+
+TRATAMENTO FARMACOLÓGICO DA IC COM FRAÇÃO DE EJEÇÃO REDUZIDA
+O tratamento da ICFER passou por uma revolução com a introdução da terapia quádrupla como pilar fundacional, que demonstrou redução drástica na mortalidade cardiovascular e nas hospitalizações.
+
+Inibidores do Sistema Renina-Angiotensina: Os Inibidores da Enzima Conversora de Angiotensina (IECA), como Enalapril e Captopril, são a base do tratamento. Caso o paciente apresente intolerância (como tosse seca limitante), utilizam-se os Bloqueadores dos Receptores de Angiotensina II (BRA), como Losartana ou Valsartana. Mais recentemente, a associação Sacubitril/Valsartana (um inibidor da neprilisina e do receptor de angiotensina) tem se mostrado superior aos IECA em pacientes ambulatoriais sintomáticos.
+
+Betabloqueadores: Fármacos como Carvedilol, Bisoprolol e Metoprolol (succinato) são mandatórios, pois antagonizam a hiperatividade simpática deletéria, reduzindo o risco de morte súbita e revertendo o remodelamento miocárdico.
+
+Antagonistas do Receptor de Mineralocorticoide: A Espironolactona é indicada para bloquear os efeitos profibróticos da aldosterona, devendo-se monitorar a função renal e os níveis de potássio sérico pelo risco de hipercalemia.
+
+Inibidores do SGLT2: Medicamentos como Dapagliflozina e Empagliflozina, inicialmente antidiabéticos, demonstraram um benefício monumental na redução de desfechos cardiovasculares e hospitalização por IC, independentemente da presença de diabetes.
+
+Diuréticos de Alça: A Furosemida é utilizada essencialmente para o alívio de sintomas congestivos (dispneia, edema). Sua dose deve ser titulada para manter o paciente euvolêmico, não possuindo impacto comprovado na sobrevida em longo prazo.
+
+MANEJO NÃO FARMACOLÓGICO E EDUCAÇÃO DO PACIENTE
+O sucesso do tratamento da IC depende criticamente do autocuidado. O paciente deve ser orientado sobre o monitoramento diário do peso corporal (um ganho rápido de peso, ex: >2kg em 3 dias, é o primeiro sinal de descompensação congestiva antes da dispneia). Recomenda-se a restrição moderada da ingestão de sódio e, em estágios avançados com hiponatremia, a restrição de fluidos. A reabilitação cardiovascular com exercícios físicos supervisionados é fortemente indicada em pacientes estáveis, promovendo melhora na capacidade funcional e na qualidade de vida.
