@@ -31,15 +31,37 @@ O CardioIA é um projeto acadêmico focado em desenvolver uma plataforma digital
 
 ### Parte 1 – Dados Numéricos (IoT)
 **Responsável:** Arthur
-**Arquivo:** `dataset_pacientes.csv`
-**Origem dos Dados:** [Arthur: Inserir a fonte, ex: Kaggle, PhysioNet ou se foi simulado]
+
+**Arquivo:** `assets/heart.csv`
+
+**Origem dos Dados:** Kaggle – Heart Failure Prediction Dataset, disponível em: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+O arquivo também está disponível no Google Drive do grupo: https://drive.google.com/file/d/1qzpiRp4aexobUvWCXbXy9Q9lRyPpGpBx/view?usp=sharing
+
+Este dataset foi criado pela combinação de 5 bases de dados já existentes, totalizando a maior base de dados de doenças cardíacas disponível para pesquisa. As bases combinadas são: Cleveland (303 observações), Hungarian (294 observações), Switzerland (123 observações), Long Beach VA (200 observações) e Stalog Heart Data Set (270 observações).
 
 **Justificativa Clínica e Relevância para IA:**
-[Arthur: Colar aqui a explicação sobre as variáveis clínicas escolhidas e como elas alimentam os modelos preditivos.]
+As doenças cardiovasculares (DCVs) são a principal causa de morte no mundo, responsáveis por aproximadamente 17,9 milhões de vidas por ano — 31% de todas as mortes globais. Quatro em cada cinco mortes por DCV ocorrem por ataques cardíacos e derrames, e um terço delas acontece prematuramente em pessoas com menos de 70 anos. A detecção precoce é essencial, e este dataset oferece 11 variáveis clínicas altamente relevantes para alimentar modelos preditivos de Machine Learning:
+
+- **Age**: idade do paciente em anos — fator de risco crescente para DCVs.
+- **Sex**: sexo do paciente (M: Masculino, F: Feminino) — permite identificar padrões de apresentação diferenciados entre gêneros.
+- **ChestPainType**: tipo de dor torácica (TA: Angina Típica, ATA: Angina Atípica, NAP: Dor Não-Anginal, ASY: Assintomático) — forte indicador clínico de isquemia.
+- **RestingBP**: pressão arterial em repouso (mm Hg) — hipertensão é um dos principais fatores de risco cardiovascular.
+- **Cholesterol**: colesterol sérico (mm/dl) — hiperlipidemia contribui diretamente para o desenvolvimento de aterosclerose.
+- **FastingBS**: glicemia em jejum (1: se > 120 mg/dl, 0: caso contrário) — a diabetes é comorbidade frequente e agravante de DCVs.
+- **RestingECG**: resultado do eletrocardiograma em repouso (Normal, ST: anormalidade de onda ST-T, LVH: hipertrofia ventricular esquerda) — evidencia alterações elétricas do coração.
+- **MaxHR**: frequência cardíaca máxima atingida (60–202 bpm) — indicador de capacidade funcional cardíaca.
+- **ExerciseAngina**: angina induzida por exercício (Y: Sim, N: Não) — sintoma clínico de isquemia sob esforço.
+- **Oldpeak**: depressão do segmento ST induzida por exercício — quanto maior, mais indicativo de isquemia miocárdica.
+- **ST_Slope**: inclinação do segmento ST no pico do exercício (Up: ascendente, Flat: plano, Down: descendente) — padrões distintos associados a diferentes graus de comprometimento coronariano.
+
+A combinação dessas variáveis permite treinar modelos de classificação binária (HeartDisease: 1 = doença, 0 = normal) com alta capacidade preditiva, servindo como base para o módulo de triagem inteligente do CardioIA.
 
 ### Parte 2 – Dados Textuais (NLP) e Governança
 **Responsável:** Michael
+
 **Arquivos:** `texto_insuficiencia_cardiaca.txt` e `texto_hipertensao.txt` (localizados na subpasta `assets/`)
+
 **Fontes:** Diretrizes da Sociedade Brasileira de Cardiologia e Manuais do Ministério da Saúde (SUS).
 * Link SUS: https://www.gov.br/conitec/pt-br/midias/protocolos/pcdt-de-insuficiencia-cardiaca
 * Link SBC: https://www.scielo.br/j/abc/a/XkVKFb4838qXrXSYbmCYM3K/?lang=pt
@@ -52,11 +74,14 @@ Em um ecossistema de saúde moderno, a curadoria desses dados deve ser acompanha
 
 ### Parte 3 – Dados Visuais (Visão Computacional)
 **Responsável:** Nathalia
-**Arquivos:** 100 imagens de exames cardiológicos (localizadas no Drive e listadas na subpasta `assets/`)
-**Origem dos Dados:** [Nathalia: Inserir a fonte, ex: Mendeley, Kaggle]
+
+**Arquivos:** Para o treinamento e teste, a base de dados de imagens foi salva em: https://drive.google.com/drive/folders/1SAV1e8cRUYLMI_qkfReXNKHfManCMeAo?usp=sharing
+
+**Origem dos Dados:** O Dataset de imagens selecionado foi o ECG Images Dataset , disponível em: https://www.kaggle.com/datasets/jayaprakashpondy/ecgimages/data
 
 **Justificativa Clínica e Relevância para IA:**
-[Nathalia: Colar aqui a explicação de como a IA pode analisar essas imagens usando visão computacional para detecção de anomalias.]
+Este banco de dados foi escolhido por haver imagens de eletrocardiogramas identificados como normais, com infarto do miocárdio, com batimentos cardíacos anormais e de pessoas com histórico de infarto do miocárdio. Esta variedade de categorias auxilia no treinamento de modelos de marchine learning.
+Considerando que o dataset é composto por representações visuais de sinais biológicos, as opções de Visão Computacional (CV) para o CardioIA abrangem desde o processamento de imagem clássico até arquiteturas avançadas de Deep Learning. Inicialmente, levanta-se a hipótese de que técnicas de detecção de bordas, como os filtros de Sobel ou o algoritmo de Canny, associadas a operações morfológicas, possam ser utilizadas para isolar o traçado do sinal do fundo milimetrado da imagem, removendo ruídos de digitalização. Uma opção robusta para a análise morfológica é o uso de Segmentação Semântica (como arquiteturas U-Net), que permitiria separar cada componente do ciclo cardíaco (Onda P, complexo QRS e Onda T) em máscaras distintas, facilitando a medição de intervalos temporais e amplitudes elétricas. Para a classificação das patologias presentes nas pastas do dataset, as opções mais eficazes envolvem o uso de Redes Neurais Convolucionais (CNNs) com Aprendizado por Transferência (Transfer Learning), utilizando modelos como ResNet ou EfficientNet pré-treinados para identificar padrões geométricos de arritmias e isquemias. Além disso, projeta-se a aplicação de Mecanismos de Atenção (Attention Maps), que permitem visualizar quais áreas do ECG a IA considerou mais relevantes para o diagnóstico, garantindo a interpretabilidade necessária para a aceitação médica do sistema.
 
 ---
 
